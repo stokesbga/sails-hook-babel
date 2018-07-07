@@ -21,7 +21,7 @@ module.exports = function(sails) {
         // Doesn't import polyfill by default
         polyfill: false,
         // Activates preset tranformations
-        presets: ['es2015']
+        presets: ['env']
       }
     },
 
